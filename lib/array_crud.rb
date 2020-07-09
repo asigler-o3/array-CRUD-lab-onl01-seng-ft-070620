@@ -11,6 +11,10 @@ def add_element_to_end_of_array(array, element)
   puts create_an_array.inspect
 end
 
+def my_array 
+  array = ["wow", "I", "am", "really", "learning"]
+end
+
 def add_element_to_start_of_array(array, element)
   element.unshift ("arrays!")
   puts element.inspect
