@@ -10,9 +10,10 @@ def add_element_to_end_of_array(array, element)
   create_an_array << 5
   puts create_an_array.inspect
 end
-
+require'pry'
 def my_array (array)
   array = ["wow", "I", "am", "really", "learning"]
+  binding.pry
 end
 
 def add_element_to_start_of_array(array, element)
