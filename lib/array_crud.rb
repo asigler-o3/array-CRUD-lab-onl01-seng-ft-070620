@@ -11,7 +11,7 @@ def add_element_to_end_of_array(array, element)
   puts create_an_array.inspect
 end
 
-def my_array 
+def my_array
   array = ["wow", "I", "am", "really", "learning"]
 end
 
