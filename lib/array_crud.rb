@@ -3,12 +3,12 @@ def create_an_empty_array
 end
 
 def create_an_array
-  my_array = []
+  my_array = [1, 2, 3]
 end
 
 def add_element_to_end_of_array(array, element)
-  element << 4
-  puts elements.inspect
+  create_an_array << 4
+  puts create_an_array.inspect
 end
 
 def add_element_to_start_of_array(array, element)
