@@ -8,7 +8,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array= ["wow", "I", "am", "really", "learning"], element= "arrays!")
-  array.push("arrays!")
+  array.last("arrays!")
   puts array.inspect
 end
 
